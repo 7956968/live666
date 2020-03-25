@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="liveMedia">
+      <UniqueIdentifier>{ba86c466-7134-48d6-b3c9-606148707584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicUsageEnvironment">
+      <UniqueIdentifier>{4ca46d1d-1a88-4467-9c38-48f47676b001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="groupsock">
+      <UniqueIdentifier>{51b3be77-c20d-43fa-86eb-1d2ab2352705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UsageEnvironment">
+      <UniqueIdentifier>{f0451b44-d746-4b8d-87f3-0fe88f365263}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AC3AudioFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AC3AudioRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AC3AudioRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AC3AudioStreamFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\ADTSAudioFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\ADTSAudioFileSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AMRAudioFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AMRAudioFileSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AMRAudioFileSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AMRAudioRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AMRAudioRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AMRAudioSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AudioInputDevice.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AudioRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\AVIFileSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\Base64.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\BasicUDPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\BasicUDPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\BitVector.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\ByteStreamFileSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\ByteStreamMemoryBufferSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\ByteStreamMultiFileSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\DeviceSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\DigestAuthentication.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\DVVideoFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\DVVideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\DVVideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\DVVideoStreamFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\EBMLNumber.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\FileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\FileSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\FramedFileSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\FramedFilter.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\FramedSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\GenericMediaServer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\GSMAudioRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H261VideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H263plusVideoFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H263plusVideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H263plusVideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H263plusVideoStreamFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H263plusVideoStreamParser.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H264or5VideoFileSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H264or5VideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H264or5VideoStreamDiscreteFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H264or5VideoStreamFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H264VideoFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H264VideoFileSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H264VideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H264VideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H264VideoStreamDiscreteFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H264VideoStreamFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H265VideoFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H265VideoFileSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H265VideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H265VideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H265VideoStreamDiscreteFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\H265VideoStreamFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\HLSSegmenter.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\HMAC_SHA1.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\InputFile.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\JPEG2000VideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\JPEG2000VideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\JPEGVideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\JPEGVideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\JPEGVideoSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\Locale.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MatroskaDemuxedTrack.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MatroskaFile.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MatroskaFileParser.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MatroskaFileServerDemux.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MatroskaFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\Media.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MediaSession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MediaSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MediaSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MIKEY.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3ADU.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3ADUdescriptor.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3ADUinterleaving.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3ADURTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3ADURTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3ADUTranscoder.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3AudioFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3FileSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3Internals.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3InternalsHuffman.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3InternalsHuffmanTable.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3StreamState.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MP3Transcoder.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2AudioRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2AudioRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2AudioStreamFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2Demux.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2DemuxedElementaryStream.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2FileServerDemux.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2VideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2VideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG1or2VideoStreamFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2IndexFromTransportStream.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamAccumulator.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamDemux.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamDemuxedTrack.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamFromESSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamFromPESSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamIndexFile.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamMultiplexor.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamParser.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamParser_PAT.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamParser_PMT.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamParser_STREAM.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG4ESVideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG4ESVideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG4GenericRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG4GenericRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG4LATMAudioRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG4LATMAudioRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEG4VideoStreamFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEGVideoStreamFramer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MPEGVideoStreamParser.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MultiFramedRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\MultiFramedRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\OggDemuxedTrack.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\OggFile.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\OggFileParser.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\OggFileServerDemux.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\OggFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\OggFileSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\OnDemandServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\ourMD5.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\OutputFile.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\PassiveServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\ProxyServerMediaSession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\QCELPAudioRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\QuickTimeFileSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\QuickTimeGenericRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RawVideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RawVideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RTCP.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\rtcp_from_spec.c">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RTPInterface.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RTSPClient.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RTSPCommon.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RTSPRegisterSender.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RTSPServer.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RTSPServerRegister.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\RTSPServerSupportingHTTPStreaming.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\ServerMediaSession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\SimpleRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\SimpleRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\SIPClient.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\SRTPCryptographicContext.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\StreamParser.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\StreamReplicator.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\T140TextRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\TCPStreamSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\TextRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\TheoraVideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\TheoraVideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\TLSState.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\uLawAudioFilter.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\VideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\VorbisAudioRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\VorbisAudioRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\VP8VideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\VP8VideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\VP9VideoRTPSink.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\VP9VideoRTPSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\WAVAudioFileServerMediaSubsession.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\liveMedia\WAVAudioFileSource.cpp">
+      <Filter>liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\BasicUsageEnvironment\BasicHashTable.cpp">
+      <Filter>BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\BasicUsageEnvironment\BasicTaskScheduler.cpp">
+      <Filter>BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\BasicUsageEnvironment\BasicTaskScheduler0.cpp">
+      <Filter>BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\BasicUsageEnvironment\BasicUsageEnvironment.cpp">
+      <Filter>BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\BasicUsageEnvironment\BasicUsageEnvironment0.cpp">
+      <Filter>BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\groupsock\GroupEId.cpp">
+      <Filter>groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\groupsock\Groupsock.cpp">
+      <Filter>groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\groupsock\GroupsockHelper.cpp">
+      <Filter>groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\groupsock\inet.c">
+      <Filter>groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\groupsock\IOHandlers.cpp">
+      <Filter>groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\groupsock\NetAddress.cpp">
+      <Filter>groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\groupsock\NetInterface.cpp">
+      <Filter>groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\UsageEnvironment\HashTable.cpp">
+      <Filter>UsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\UsageEnvironment\strDup.cpp">
+      <Filter>UsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\UsageEnvironment\UsageEnvironment.cpp">
+      <Filter>UsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\live.2020.03.06\BasicUsageEnvironment\DelayQueue.cpp">
+      <Filter>BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="live666.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRTSPServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMetaMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMetaMediaSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\EBMLNumber.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\H263plusVideoStreamParser.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\MatroskaDemuxedTrack.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\MatroskaFileParser.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\MatroskaFileServerMediaSubsession.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\MP3ADUdescriptor.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\MP3Internals.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\MP3InternalsHuffman.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\MP3StreamState.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamDemuxedTrack.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\MPEG2TransportStreamParser.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\MPEGVideoStreamParser.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\OggDemuxedTrack.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\OggFileParser.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\OggFileServerMediaSubsession.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\rtcp_from_spec.h">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\live.2020.03.06\liveMedia\StreamParser.hh">
+      <Filter>liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="version.hh">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRTSPServer.hh">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMetaMediaSubsession.hh">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMetaMediaSource.hh">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
