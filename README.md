@@ -61,7 +61,7 @@ rtsp请求可能包含http连接，rtp连接，原生live555设计中关闭Http�
 2. ./ffmpeg.exe -i rtsp://127.0.0.1/ch0.liv
 
 ### 其他
-同时上传原版live555,方便比较
+同时上传原版live555(2020.03.06),方便比较
 
    
 
