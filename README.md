@@ -18,7 +18,6 @@
 我的修改是
 
 1、为每一次rtsp请求建立RTSPServer
-
 2、RTSPServer将不再accept，而是由主线程accept，
 3、在accpet后将socket给单独的线程,并且在线程中分配RTSPServer,TaskScheduler和UsageEnvironment
 为此需要修改GenericMediaServer，让其不再accept，只监听主线程传过来的socket，此后的处理照旧。
